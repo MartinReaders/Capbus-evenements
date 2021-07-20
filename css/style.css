@@ -1,0 +1,445 @@
+body{
+  font-family: 'Economica', sans-serif !important;
+}
+header{
+    background-image: url("../img/fond/Renécros-plage.jpg");
+    min-height: 450px;
+height: 400px;
+background-size: cover;
+position: relative;
+
+}
+
+
+footer{
+  background-image: url("../img/fond/header-agde-cap.jpg");
+  min-height: 250px;
+height: 250px;
+background-size: cover;
+position: relative;
+  
+}
+
+
+
+.footer_logo_wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+  top: -15%;
+}
+
+.footer_logo {
+  margin: auto;
+}
+.footer_logo img {
+  margin: auto;
+  max-width: 400px;
+}
+
+
+.notres{
+  color: #00B3BA;
+  padding: 20px;
+}
+
+.header_logo_wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    top: 27%;
+}
+
+.header_logo {
+    margin: auto;
+}
+.header_logo img {
+    margin: auto;
+    max-width: 400px;
+}
+img {
+    vertical-align: middle;
+}
+
+.title_home{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title_home h2{
+  font-family: 'Economica', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0077BF;
+}
+
+.title_home p{
+  font-family: 'Economica', sans-serif;
+    font-weight: 600;
+}
+
+.title_home img{
+  width: 100%;
+  max-width: 20%;
+}
+
+.gt-separate::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 125px;
+    background: currentColor;
+    opacity: .15;
+}
+
+.gt-separate svg {
+    margin: 0 20px;
+    width: 30px;
+    height: auto;
+    opacity: 1;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.gt-separate::after, .gt-separate::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 125px;
+    background: currentColor;
+    opacity: .15;
+}
+
+footer div img {
+  width: 100%;
+
+ 
+}
+
+
+
+.gt-separate {
+    justify-content: center;
+}
+.gt-separate {
+    align-items: center;
+    display: flex;
+    margin: 40px auto 0;
+}
+
+.gt-align-center {
+    text-align: center;
+}
+
+body {
+    
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .post-module {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: #f2f2f2;
+    min-width: 270px;
+    height: 470px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .post-module:hover,
+  .hover {
+    -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+  .post-module:hover .thumbnail img,
+  .hover .thumbnail img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+  .post-module .thumbnail {
+    background: #000000;
+    height: 400px;
+    overflow: hidden;
+  }
+  .post-module .thumbnail .date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background: #00AEE7;
+    width: 55px;
+    height: 55px;
+    padding: 5.5px 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .post-module .thumbnail .date .day {
+    font-size: 18px;
+  }
+  .post-module .thumbnail .date .month {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .post-module .thumbnail img {
+    display: block;
+    width: 120%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .post-module .post-content {
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 50px 10px;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  }
+  .post-module .post-content .category {
+    position: absolute;
+    top: -34px;
+    left: 0;
+    background: #00AEE7;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .post-module .post-content .title {
+    margin: 0;
+    padding: 0 0 10px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .post-module .post-content .sub_title {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .post-module .post-content .description {
+    display: none;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+  .post-module .post-content .post-meta {
+    margin: 30px 0 0;
+    color: #999999;
+  }
+  .post-module .post-content .post-meta .timestamp {
+    margin: 0 16px 0 0;
+  }
+  .post-module .post-content .post-meta a {
+    color: #999999;
+    text-decoration: none;
+  }
+  .hover .post-content .description {
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
+  }
+  .containerp {
+    width: 1300px;
+    min-width: 640px;
+    margin: 0 auto;
+  }
+  .containerp:before,
+  .containerp:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .containerp .column {
+    width: 33.33333%;
+    padding: 0 25px;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+  }
+  .containerp .column .demo-title {
+    margin: 0 0 15px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .containerp .info {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .containerp .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  .containerp .info span {
+    color: #666666;
+    font-size: 12px;
+  }
+  .containerp .info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .containerp .info span .fa {
+    color: #e74c3c;
+  }
+  
+
+.detaile{
+ 
+color: #fff;
+text-transform: uppercase;
+margin: 0;
+background: #00B3BA;
+padding: 7px 20px;
+border-radius: 25px;
+font-weight: 500;
+}
+
+.detaile:hover{
+    opacity: .4s;
+    color: #fff;
+}
+
+p{
+  margin: 0 !important;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.al-c{
+  align-items: center;
+}
+
+.inf{
+  padding-left: 10px;
+  color:#777;
+}
+
+.more{
+  color: #00B3BA;
+  font-weight: bold;
+}
+
+
+.al-c svg, svg{
+  max-width: 20px;
+  color: #00B3BA;
+}
+
+.col-4{
+  padding-right: 0px;
+padding-left: 0px;
+}
+
+.img img {
+  padding: 0 !important;
+  border: 0 !important;
+  padding: .25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: .25rem;
+max-width: 100%;
+height: auto;
+}
+
+.thumbnail p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 500px)
+{
+    .header_logo_wrapper > .header_logo > img {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 827px)
+{
+    .containerp .column {
+        width: 100%;
+    }
+    .containerp{
+        min-width: 100% !important;
+    }
+
+    .order{
+      order: 1;
+      margin-top: 40px;
+    }
+    svg { 
+      height: 100%;
+      width: 100%;
+      overflow: visible !important;
+    }
+    .gt-separate {
+    
+      margin: 15px auto 0;
+    }
+    .title_home img {
+     
+      max-width: 40%;
+  }
+  .header_logo img {
+ 
+    max-width: 200px;
+  }
+  header {
+    
+    min-height: 300px;
+    height: 300px
+  }
+    
+}
+
+
+
+@media screen and (max-width: 1274px)
+{
+    
+    .containerp{
+        width: 100%;
+    }
+}
+
+
